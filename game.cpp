@@ -1,9 +1,7 @@
 #include <iostream>
 #include <string>
 
-int game(int ans) {
-
-    std::string ans_num = std::to_string(ans);
+int game(std::string ans_num) {
     
     while (true) {
         std::string guess_num;
@@ -36,4 +34,4 @@ int game(int ans) {
 
 
     return 0;
-}   
+}

@@ -14,7 +14,7 @@ std::string util(){
     while (ans_num[0] == ans_num[1]) {
         ans_num[1] = rand()%10;
     }
-    ans_num[2] = rand()%9;
+    ans_num[2] = rand()%10;
     while (ans_num[0] == ans_num[2] || ans_num[1] == ans_num[2] ){
         ans_num[2] = rand()%10;
     }

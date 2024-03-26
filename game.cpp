@@ -33,7 +33,9 @@ int game(std::string ans_num) {
         else {
             std::cout << "Strikes: " << strike << ", " << "Balls: " << ball << "\n";
         }
+
         count--;
+        
         if(count == 0){
             std::cout << "You lose!";
             break;
